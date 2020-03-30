@@ -1,5 +1,21 @@
-$primary: orange;
+
+@include media-breakpoint-up(lg) { 
+    .container {
+        max-width: 1024px;
+    }
+ }
+
+$primary: darkorange;
+$font1: 'Montserrat', serif;
+
+* {
+    font-family: $font1;
+}
 
 h1 {
     color: $primary;
 }
+
+nav {
+    background-color: $primary;
+    color: white;

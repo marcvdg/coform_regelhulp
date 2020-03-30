@@ -1,4 +1,13 @@
+* {
+  font-family: "Montserrat", serif;
+}
+
 h1 {
   color: orange;
+}
+
+nav {
+  background-color: orange;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
