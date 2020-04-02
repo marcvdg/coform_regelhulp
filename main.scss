@@ -1,16 +1,45 @@
-$primary: darkorange;
+$primary: #ff6600;
 $font1: 'Montserrat', serif;
 
 * {
     font-family: $font1;
 }
 
-h1 {
-    color: $primary;
-    text-transform: capitalize;
- }
+header {
+    padding-top: 2em;
+
+    h1 {
+        color: $primary;
+        font-weight: 700;
+    }
+
+}
 
 nav {
     background-color: $primary;
     color: white;
-}
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  
+    li { display: inline-block; }
+  
+    a {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+      color: white;
+    }
+
+    a:hover {
+        color: orange;
+        text-decoration: none;
+    }
+  }
+
+  section {
+      padding: 2em 0 2em 0;
+  }

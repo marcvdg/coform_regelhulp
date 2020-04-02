@@ -2,13 +2,43 @@
   font-family: "Montserrat", serif;
 }
 
-h1 {
-  color: darkorange;
-  text-transform: capitalize;
+header {
+  padding-top: 2em;
+}
+
+header h1 {
+  color: #ff6600;
+  font-weight: 700;
 }
 
 nav {
-  background-color: darkorange;
+  background-color: #ff6600;
   color: white;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+section {
+  padding: 2em 0 2em 0;
 }
 /*# sourceMappingURL=main.css.map */
