@@ -7,8 +7,8 @@ $font1: 'Montserrat', serif;
 
 h1 {
     color: $primary;
-    font-weight: 900;
-}
+    text-transform: capitalize;
+ }
 
 nav {
     background-color: $primary;
