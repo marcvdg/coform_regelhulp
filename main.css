@@ -3,11 +3,12 @@
 }
 
 h1 {
-  color: orange;
+  color: darkorange;
+  font-weight: 800;
 }
 
 nav {
-  background-color: orange;
+  background-color: darkorange;
   color: white;
 }
 /*# sourceMappingURL=main.css.map */
